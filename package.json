@@ -1,6 +1,5 @@
 {
-    "homepage": "https://Nilay-rawal1.github.io/PortFolio",
-    "name": "portfolio",
+
     "version": "0.1.0",
     "private": true,
     "dependencies": {
