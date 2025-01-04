@@ -9,6 +9,7 @@ import NewsNirnay from "../../Assets/Projects/newsnirnary.png"
 import crowdsource from"../../Assets/Projects/crowdsource.png"
 import ELA from "../../Assets/Projects/ela.png"
 import NewzBuzz from"../../Assets/Projects/NewBuzz.png"
+import diwali from "../../Assets/Projects/diwali.png"
 
 
 function Projects() {
@@ -23,7 +24,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath="https://private-user-images.githubusercontent.com/98951434/369893333-a68f8439-49d3-49cd-b224-4a8db7efa74e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU5ODg0MzQsIm5iZiI6MTczNTk4ODEzNCwicGF0aCI6Ii85ODk1MTQzNC8zNjk4OTMzMzMtYTY4Zjg0MzktNDlkMy00OWNkLWIyMjQtNGE4ZGI3ZWZhNzRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA0VDEwNTUzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ3ZjJkZjQ4OTNmYzA3MjRjZGU5NGE2N2VmYWFlNTI2Yzg5OGY0OGZhODYwZTFkY2FiNzNlNGI2MTZmNTliNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9UyDG8Cp5Uvl7KHrNuJbtcF46FfhoBEew0ImuOzBsWE"
+              isBlog={false}
+              title="Recognition of License Plates"
+              description="Camera App for Automatic Recognition of License Plates. Capstone Project 2024-2025 . Team 261"
+              ghLink="https://github.com/Nilay-rawal1/License-Plates-Recognition"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Agritech}
@@ -32,6 +42,16 @@ function Projects() {
               description="The vision of the Smart Agriculture System for Farmers near Bhopal project is to transform the region's agricultural landscape by harnessing cutting-edge technology. We aim to create a sustainable and prosperous agricultural ecosystem that leverages innovation to address the unique challenges faced by local farmers."
               ghLink="https://github.com/Nilay-rawal1/AgriTech/"
               
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={diwali}
+              isBlog={false}
+              title="Diwali Sales Anaysis"
+              description="This repository contains a detailed exploratory data analysis (EDA) of Diwali sales data. The primary goal of this project is to uncover key insights about customer behavior, sales trends, and factors influencing sales performance during the Diwali festival. This analysis is crucial for businesses to make data-driven decisions and optimize marketing strategies during the festive season."
+              ghLink="https://github.com/Nilay-rawal1/News-Nirnay"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
           <Col md={4} className="project-card">
@@ -108,6 +128,7 @@ Engineered the platform to deliver personalized news content."
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+          
         </Row>
       </Container>
     </Container>
