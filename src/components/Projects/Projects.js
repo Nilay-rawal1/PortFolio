@@ -51,7 +51,7 @@ function Projects() {
               isBlog={false}
               title="Diwali Sales Anaysis"
               description="This repository contains a detailed exploratory data analysis (EDA) of Diwali sales data. The primary goal of this project is to uncover key insights about customer behavior, sales trends, and factors influencing sales performance during the Diwali festival. This analysis is crucial for businesses to make data-driven decisions and optimize marketing strategies during the festive season."
-              ghLink="https://github.com/Nilay-rawal1/News-Nirnay"
+              ghLink="https://github.com/Nilay-rawal1/Diwali-Sales-Analysis"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
