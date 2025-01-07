@@ -10,7 +10,7 @@ import crowdsource from"../../Assets/Projects/crowdsource.png"
 import ELA from "../../Assets/Projects/ela.png"
 import NewzBuzz from"../../Assets/Projects/NewBuzz.png"
 import diwali from "../../Assets/Projects/diwali.png"
-import ocr from "../../Assets/Projects/ocr.png"
+import ocr from "../../Assets/Projects/Ocr.png"
 
 
 function Projects() {
