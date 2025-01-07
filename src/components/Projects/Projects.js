@@ -10,6 +10,7 @@ import crowdsource from"../../Assets/Projects/crowdsource.png"
 import ELA from "../../Assets/Projects/ela.png"
 import NewzBuzz from"../../Assets/Projects/NewBuzz.png"
 import diwali from "../../Assets/Projects/diwali.png"
+import ocr from "../../Assets/Projects/ocr.png"
 
 
 function Projects() {
@@ -26,7 +27,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath="https://private-user-images.githubusercontent.com/98951434/369893333-a68f8439-49d3-49cd-b224-4a8db7efa74e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzU5ODg0MzQsIm5iZiI6MTczNTk4ODEzNCwicGF0aCI6Ii85ODk1MTQzNC8zNjk4OTMzMzMtYTY4Zjg0MzktNDlkMy00OWNkLWIyMjQtNGE4ZGI3ZWZhNzRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAxMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMTA0VDEwNTUzNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ3ZjJkZjQ4OTNmYzA3MjRjZGU5NGE2N2VmYWFlNTI2Yzg5OGY0OGZhODYwZTFkY2FiNzNlNGI2MTZmNTliNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9UyDG8Cp5Uvl7KHrNuJbtcF46FfhoBEew0ImuOzBsWE"
+              imgPath={ocr}
               isBlog={false}
               title="Recognition of License Plates"
               description="Camera App for Automatic Recognition of License Plates. Capstone Project 2024-2025 . Team 261"
